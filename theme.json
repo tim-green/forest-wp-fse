@@ -1,4 +1,174 @@
 {
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"duotone": [
+				{
+					"name": "Blue",
+					"slug": "blue",
+					"colors": [
+						"#3b22ef",
+						"#d7d1f2"
+					]
+				},
+				{
+					"name": "Pink",
+					"slug": "Pink",
+					"colors": [
+						"#f215a2",
+						"#f2cce2"
+					]
+				},
+				{
+					"name": "Green",
+					"slug": "green",
+					"colors": [
+						"#145954",
+						"#cbf7f4"
+					]
+				},
+				{
+					"name": "Yellow",
+					"slug": "yellow",
+					"colors": [
+						"#7a6c18",
+						"#fae581"
+					]
+				},
+				{
+					"name": "Red",
+					"slug": "red",
+					"colors": [
+						"#42140a",
+						"#f87e76"
+					]
+				},
+				{
+					"name": "Teal",
+					"slug": "teal",
+					"colors": [
+						"#1f3837",
+						"#79ecfd"
+					]
+				},
+				{
+					"name": "Orange",
+					"slug": "orange",
+					"colors": [
+						"#2f1e0a",
+						"#f39f61"
+					]
+				},
+				{
+					"name": "Vineyard",
+					"slug": "vineyard",
+					"colors": [
+						"#090986",
+						"#50f967"
+					]
+				},
+				{
+					"name": "Burp",
+					"slug": "burp",
+					"colors": [
+						"#7b09c8",
+						"#03c0de"
+					]
+				},
+				{
+					"name": "Aussie",
+					"slug": "aussie",
+					"colors": [
+						"#00843d",
+						"#ffcd00"
+					]
+				},
+				{
+					"name": "Sundown",
+					"slug": "sundown",
+					"colors": [
+						"#ff1f43",
+						"#f3cf45"
+					]
+				},
+				{
+					"name": "Grayscale",
+					"slug": "grayscale",
+					"colors": [
+						"#151515",
+						"#efefef"
+					]
+				}
+			],
+			"gradients": [
+				{
+					"name": "Purple",
+					"slug": "purple",
+					"gradient": " linear-gradient(135deg, #5c44ff, #b035ff)"
+				},
+				{
+					"name": "Blue",
+					"slug": "blue",
+					"gradient": "linear-gradient(135deg, #0b57ea, #50b6ef)"
+				},
+				{
+					"name": "Pink",
+					"slug": "pink",
+					"gradient": "linear-gradient(135deg, #f2117d, #ffa4cf)"
+				},
+				{
+					"name": "Black",
+					"slug": "black",
+					"gradient": "linear-gradient(135deg, #0b0913, #6d5f9c)"
+				},
+				{
+					"name": "Heat",
+					"slug": "heat",
+					"gradient": "linear-gradient(135deg, #ff4a76, #ffd19b)"
+				}
+			],
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#5e49f0"
+				},
+				{
+					"name": "Main",
+					"slug": "main",
+					"color": "#0e0b19"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#5e5e7f"
+				},
+				{
+					"name": "Main Accent",
+					"slug": "main-accent",
+					"color": "#d6d3e1"
+				},
+				{
+					"name": "Primary Accent",
+					"slug": "primary-accent",
+					"color": "#d8d3fd"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#f2f2f2"
+				},
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#f8f8f8"
+				}
+			],
+			"link": true
+		},
 		"spacing": {
 			"spacingSizes": [
 				{
