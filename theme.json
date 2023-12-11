@@ -1,3 +1,31 @@
+{
+		"typography": {
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "Afacad, sans-serif",
+					"name": "Afacad",
+					"slug": "primary",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Afacad",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 700",
+							"src": [
+								"file:.\/assets\/fonts\/Afacad-VariableFont_wght.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "monospace",
+					"name": "Monospace",
+					"slug": "monospace"
+				}
+			],
 	"templateParts": [
 		{
 			"name": "header",
@@ -15,3 +43,4 @@
 			"area": "sidebar"
 		}
 	]
+}
