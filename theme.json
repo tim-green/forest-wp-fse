@@ -1,4 +1,23 @@
 {
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"customTemplates": [
+		{
+			"name": "page-no-title",
+			"title": "Page (Full Width, No Title)",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "page-with-sidebar",
+			"title": "Page (With Sidebar)",
+			"postTypes": [
+				"post",
+				"page"
+			]
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
