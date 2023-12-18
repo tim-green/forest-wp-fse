@@ -17,10 +17,8 @@ require_once get_template_directory() . '/inc/enqueues.php';
 require_once get_template_directory() . '/inc/navmenus.php'; 
 
 /* Register sidebars */
-require_once get_template_directory() . '/inc/sidebars.php'; 
+// require_once get_template_directory() . '/inc/sidebars.php'; 
 
-/* Nav Walker */
-require_once get_template_directory() . '/inc/lib/class-wp-bootstrap-navwalker.php'; 
 
 /* Register Custom Post Types & Taxonomies */
 foreach ( glob( get_template_directory() . '/inc/cpt/*.php' ) as $cpt ) {
@@ -29,15 +27,6 @@ foreach ( glob( get_template_directory() . '/inc/cpt/*.php' ) as $cpt ) {
 
 /* Various global functions */
 require_once get_template_directory() . '/inc/global.php'; 
-
-/* ACF integration */
-require_once get_template_directory() . '/inc/integrations/acf.php'; 
-
-/* Contact Form 7 integration */
-// require_once get_template_directory() . '/inc/integrations/cf7.php'; 
-
-/* Search results filter */
-// require_once get_template_directory() . '/inc/searchfilter.php'; 
 
 /* Cleanup */
 require_once get_template_directory() . '/inc/cleanup.php'; 
