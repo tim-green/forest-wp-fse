@@ -51,6 +51,16 @@ if ( ! function_exists( 'grnd_setup_theme' ) ) {
 }
 
 add_action( 'after_setup_theme', 'grnd_setup_theme' );
+
+/**
+ * Add Dashicons for use with block styles.
+ */
+function enqueue_block_dashicons() {
+	wp_enqueue_style( 'dashicons' );
+}
+add_action( 'enqueue_block_assets', __NAMESPACE__ . '\enqueue_block_dashicons' );
+
+
 /**
  * Add block style variations.
  */
