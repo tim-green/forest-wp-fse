@@ -124,3 +124,41 @@ function register_block_styles() {
 add_action( 'init', __NAMESPACE__ . '\register_block_styles' );
 
 
+/**
+ * Register pattern categories.
+ */
+function pattern_categories() {
+
+	$block_pattern_categories = array(
+		'forest/card'           => array(
+			'label' => __( 'Cards', 'forest' ),
+		),
+		'forest/call-to-action' => array(
+			'label' => __( 'Call To Action', 'forest' ),
+		),
+		'forest/features'       => array(
+			'label' => __( 'Features', 'forest' ),
+		),
+		'forest/hero'           => array(
+			'label' => __( 'Hero', 'forest' ),
+		),
+		'forest/pages'          => array(
+			'label' => __( 'Pages', 'forest' ),
+		),
+		'forest/posts'          => array(
+			'label' => __( 'Posts', 'forest' ),
+		),
+		'forest/pricing'        => array(
+			'label' => __( 'Pricing', 'forest' ),
+		),
+		'forest/testimonial'    => array(
+			'label' => __( 'Testimonials', 'forest' ),
+		),
+	);
+
+	foreach ( $block_pattern_categories as $name => $properties ) {
+		register_block_pattern_category( $name, $properties );
+	}
+}
+add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );
+
