@@ -4,6 +4,8 @@
  * https://developer.wordpress.org/reference/functions/add_theme_support/
  */
 
+// namespace Forest;
+
 if ( ! function_exists( 'grnd_setup_theme' ) ) {
 
 	function grnd_setup_theme() {
@@ -36,14 +38,14 @@ if ( ! function_exists( 'grnd_setup_theme' ) ) {
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
 		// Define custom image sizes
-		require_once get_template_directory() . '/inc/imagesizes.php';
+		// require_once get_template_directory() . '/inc/imagesizes.php';
 
 		// Set max content width (embedded)
 		if ( ! isset( $content_width ) ) {
 			$content_width = 1400;}
 
 		// Load translations
-		load_theme_textdomain( 'groundctrl', get_template_directory() . '/languages' );
+		// load_theme_textdomain( 'groundctrl', get_template_directory() . '/languages' );
 
 		// Add excerpt to pages
 		// add_post_type_support( 'page', 'excerpt' );
