@@ -78,15 +78,3 @@ function grnd_breadcrumbs() {
 	}
 
 }
-
-
-//Attributes fix for Bootstrap 5 Nav Walker 
-function grnd_bs5_navwalker_fix( $atts ) {
-	if ( array_key_exists( 'data-toggle', $atts ) ) {
-		unset( $atts['data-toggle'] );
-		$atts['data-bs-toggle'] = 'dropdown';
-	}
-	return $atts;
-
-}
-add_filter( 'nav_menu_link_attributes', 'grnd_bs5_navwalker_fix' );
