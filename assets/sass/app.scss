@@ -7,8 +7,6 @@
 */
 
 
-/
-
 /*
 
  modules
@@ -37,11 +35,18 @@
  Components
 
 */
-
-@import "components/backtotop";
+@import "components/button";
+@import "components/calendar";
+@import "components/code";
+@import "components/columns";
 @import "components/comments";
-@import "components/homepage";
-@import "components/sidebar";
+@import "components/cover";
+@import "components/gallery";
+@import "components/image";
+@import "components/list";
+@import "components/posts";
+
+
 
 /*
 
