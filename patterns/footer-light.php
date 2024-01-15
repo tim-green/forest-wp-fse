@@ -125,7 +125,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Visit Mike</p>
+<p>Visit Git</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
