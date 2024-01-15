@@ -1,0 +1,51 @@
+/*
+
+  Image
+  +
+
+*/
+html .is-layout-flex .wp-block-image{
+    flex-shrink: 0;
+}
+
+.wp-block-post-content > .wp-block-image, .wp-block-post-content > .wp-block-gallery{
+    margin-top: var(--wp--preset--spacing--large);
+    margin-bottom: var(--wp--preset--spacing--large);
+}
+
+.wp-block-image.alignleft{
+    margin-bottom: var(--wp--preset--spacing--small);
+}
+
+.wp-block-image.alignright{
+    margin-bottom: var(--wp--preset--spacing--small);
+}
+
+.wp-block-image.is-style-rounded img, .wp-block-image .is-style-rounded img{
+    border-radius: 10px;
+}
+
+.wp-block-image.is-style-rounded-full img, .wp-block-image .is-style-rounded-full img{
+    border-radius: 100%;
+}
+
+.is-style-media-boxed{
+    background-color: var(--wp--preset--color--tertiary);
+    padding: var(--wp--preset--spacing--large);
+    border-radius: 5px;
+    
+    img{
+        box-shadow: 
+        1px 2px 2px rgba(201, 206, 232, 0.2),
+		2px 4px 4px rgba(202, 206, 231, 0.2)
+		4px 8px 8px rgba(202, 206, 231, 0.2)
+		8px 16px 16px rgba(201, 206, 232, 0.2),
+		16px 32px 32px rgba(201, 206, 232, 0.2);
+    }
+
+    figcaption {
+        margin-bottom: calc(var(--wp--preset--spacing--small) * -1) !important;
+    }
+    
+
+}
