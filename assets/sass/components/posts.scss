@@ -1,0 +1,28 @@
+/*
+
+  Posts
+  +
+
+*/
+
+
+// Adjust terms at bottom of posts
+.single .wp-block-group .wp-block-post-terms,
+.blog .wp-block-group .wp-block-post-terms {
+	margin-bottom: -8px !important;
+}
+
+// Remove margin on term description on archive pages
+.wp-block-term-description p:last-child {
+	margin-bottom: 0;
+}
+
+// Remove last separator on post list
+.remove-border-and-padding .wp-block-post-template li:last-child .wp-block-separator {
+	display: none;
+}
+
+// Hide post meta div if no tags assigned
+.single .wp-block-group:has(> .post-meta:empty) {
+	display: none;
+}
