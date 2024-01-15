@@ -1,6 +1,6 @@
-# GroundCTRL
+# Forest
 
-*A WordPress FSE/Block Framework that will be modded and coded to suit the site that I'm building.
+*A WordPress FSE/Block theme that is called Forest.
 
 ## 
-Copyright © 2023-present [Tim Green](https://github.com/tim-green)
+Copyright © 2023-present [Tim Green](https://github.com/tim-green/forest-wp-fse)
