@@ -27,6 +27,6 @@
     "load-grunt-tasks": "^5.1.0",
     "node-sass": "^9.0.0",
     "pixrem": "^5.0.0",
-    "postcss": "^8.4.32"
+    "postcss": "^8.4.38"
   }
 }
