@@ -15,7 +15,7 @@
     "grunt-contrib-sass": "^2.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.19",
     "grunt": "^1.6.1",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-imagemin": "^4.0.0",
